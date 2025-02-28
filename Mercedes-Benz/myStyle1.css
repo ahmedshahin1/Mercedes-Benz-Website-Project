@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+}
+	body {
+  background-image: url('images/banner.jpg');
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: fadeInDown 1s ease;
+        }
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+
+
+.btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+			transition: background-color 0.3s ease;
+        }
+
+.registrationform{
+  position: center;
+  max-width: 430px;
+  width: 100%;
+  background: #333;
+  padding: 34px;
+  border-radius: 10px;
+  margin-top:25px;
+}
+.registrationform h2{
+	color:white;
+	position: center;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.registrationform form{
+  margin-top: 35px;
+}
+.registrationform form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: 0px;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  border: 1.5px solid #C7BEBE;
+  border-radius: 14px;
+
+}
+
+
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #856767;
+  cursor: pointer;
+  transition:1s;
+}
+.input-box.button input:hover{
+  background: white;
+  color: black;
+  transition:1s;
+}
+
+form .text h3{
+ color: #ffffff;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+.login-wrapper {
+  height: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:25px;
+}
+.form {
+  
+  width: 100%;
+  max-width: 380px;
+  padding: 80px 40px 40px;
+  background: #333;
+  border-radius: 14px;
+  color: white;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+.form h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  color: white;
+}
+.form .inputgrp {
+  position: relative;
+}
+.form .inputgrp input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 1px ;
+  outline: none;
+  background-color: white;
+  color: black;
+}
+
+.btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+			
+        }
+
